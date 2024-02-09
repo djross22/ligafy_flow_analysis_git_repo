@@ -14,6 +14,8 @@ Follow the installation instructions for gsf_ims_fitness to install the correct 
 - cmdstanpy, version 1.1.0
 
 ## Data Analysis Pipeline:
+Because of size constraints, this repository only contains example raw data for 2 datasets (.fcs files). Summary data is included for all datasets.
+
 First run the analysis notebooks for each flow cytometry dataset, in order.
 For example, in the folder `/2023-08-24_12-plasmids_4-ligands_Cytom/plate_1/Jupyter notebooks`, run these notebooks in order:
 ```
@@ -30,3 +32,4 @@ Plot and fit cytometry data.ipynb
 Dose response plots for each sensor.ipynb
 Cytometry histogram plots.ipynb
 ```
+ 
